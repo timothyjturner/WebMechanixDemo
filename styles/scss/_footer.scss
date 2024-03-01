@@ -1,0 +1,10 @@
+.wmd {
+    footer i:hover {
+        color: #ce0e2d;
+    }
+    @include media-breakpoint-up(xl) { 
+        p {
+            margin: 0;
+        }
+    }
+}

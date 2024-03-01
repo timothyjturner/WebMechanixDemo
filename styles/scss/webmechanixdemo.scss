@@ -1,0 +1,13 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+@import "global";
+@import "header";
+@import "footer";
+
+@import "components/button";
+
+
+.wmd .lag-section-5 {
+    background: unset;
+}

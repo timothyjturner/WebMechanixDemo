@@ -1,0 +1,41 @@
+.wmd {
+    .lag-header__mobile-menu .lag-header__main-nav>ul {
+        margin-top: 189px;
+    }
+    img.lag-header__logo {
+        height: 120px;
+        padding-bottom: 20px;
+    }
+    .lag-header__logo-container__wmd-slogan {
+        padding-bottom: 20px;
+        margin-bottom: 0;
+        padding-top: 0;
+        margin: 0;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .lag-header__phone-number-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            top: 0;
+        }
+    }
+    
+    @include media-breakpoint-up(xl) { 
+        img.lag-header__logo {
+            padding-bottom: 0;
+        }
+        .lag-header__inner {
+            padding: 0;
+            padding-top: 10px;
+            padding-bottom: 20px;
+        }
+        .lag-header__logo-container__wmd-slogan {
+            padding-top: 20px;
+            margin-bottom: 0;
+        }
+    }
+}
