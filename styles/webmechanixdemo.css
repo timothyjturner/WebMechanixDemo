@@ -8365,6 +8365,11 @@ textarea.form-control-lg {
 .wmd h1, .wmd .h1 {
   margin-top: 2rem;
   margin-bottom: 2rem; }
+@media (max-width: 1199px) {
+  .wmd .lag-header--mobile + .lag-main-content {
+    padding-top: 194px; } }
+.wmd .lag-header--modal-visible + .lag-main-content {
+  padding-top: 0 !important; }
 
 .wmd .lag-header__mobile-menu .lag-header__main-nav > ul {
   margin-top: 189px; }
@@ -8395,13 +8400,16 @@ textarea.form-control-lg {
     padding-top: 20px;
     margin-bottom: 0; } }
 
+@media (max-width: 525px) {
+  .wmd .lag-header__logo {
+    max-height: unset; } }
 .wmd footer i:hover {
   color: #ce0e2d; }
 @media (min-width: 1200px) {
   .wmd p {
     margin: 0; } }
 
-.wp-block-button a {
+.wp-block-button a, .wmd .wmd_hero #QuoteForm input[type=submit] {
   display: inline-block;
   text-align: center;
   text-decoration: none;
@@ -8414,7 +8422,7 @@ textarea.form-control-lg {
   line-height: 1.4375rem;
   padding: 10px 55px;
   border-radius: 5px;
-  background-color: #ce0e2d;
+  background-color: #ce0e2d !important;
   margin: auto;
   outline: none;
   border: none;
@@ -8423,10 +8431,37 @@ textarea.form-control-lg {
   margin-top: 2rem;
   margin-bottom: 1rem; }
 
+@media (max-width: 641px) {
+  .wmd .wmd_hero #QuoteForm .gform_wrapper .ginput_container span:not(.ginput_price) {
+    margin-bottom: 0; } }
+.wmd .wmd_hero #QuoteForm input[type="text"] {
+  width: 100%;
+  border-radius: 10px;
+  border-width: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 0;
+  height: 40px;
+  margin-bottom: 12px; }
+.wmd .wmd_hero #QuoteForm .gform_wrapper ul.gform_fields li.gfield,
+.wmd .wmd_hero #QuoteForm .ginput_container.ginput_container_email,
+.wmd .wmd_hero #QuoteForm .top_label div.ginput_container {
+  margin-top: 0; }
+.wmd .wmd_hero #QuoteForm input[type="submit"] {
+  margin-top: 0;
+  margin-bottom: 5px; }
+.wmd .wmd_hero #QuoteForm .gform_footer.top_label {
+  padding-top: 0; }
+@media (max-width: 1199px) {
+  .wmd .wmd_hero .wmd_hero__content > div.col-12:first-of-type {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://webmechanixdemo.timothyjturner.com/wp-content/uploads/2024/02/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+    .wmd .wmd_hero .wmd_hero__content > div.col-12:first-of-type h1, .wmd .wmd_hero .wmd_hero__content > div.col-12:first-of-type .h1, .wmd .wmd_hero .wmd_hero__content > div.col-12:first-of-type p, .wmd .wmd_hero .wmd_hero__content > div.col-12:first-of-type .gform_confirmation_message {
+      color: white; } }
+
 .wmd .lag-section-5 {
   background: unset; }
-
-.wmd ol.lag-section--easy__list ol {
-  margin-top: 1rem; }
 
 /*# sourceMappingURL=webmechanixdemo.css.map */

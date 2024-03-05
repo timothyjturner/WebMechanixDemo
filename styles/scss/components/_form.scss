@@ -1,0 +1,44 @@
+.wmd .wmd_hero {
+  #QuoteForm {
+    .gform_wrapper .ginput_container span:not(.ginput_price) {
+        @media (max-width: 641px) {
+            margin-bottom: 0;
+        }
+    }
+    input[type="text"] {
+      width: 100%;
+      border-radius: 10px;
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-top: 0;
+      height: 40px;
+      margin-bottom: 12px;
+    }
+    .gform_wrapper ul.gform_fields li.gfield,
+    .ginput_container.ginput_container_email,
+    .top_label div.ginput_container {
+      margin-top: 0;
+    }
+    input[type="submit"] {
+      margin-top: 0;
+      margin-bottom: 5px;
+    }
+    .gform_footer.top_label {
+      padding-top: 0;
+    }
+  }
+  @media (max-width: 1199px) {
+    .wmd_hero__content > div.col-12:first-of-type {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+          url(https://webmechanixdemo.timothyjturner.com/wp-content/uploads/2024/02/hero.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        h1, p, .gform_confirmation_message {
+            color: white;
+        }
+      }
+  }
+}

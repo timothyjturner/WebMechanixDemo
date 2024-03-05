@@ -3,5 +3,12 @@
         margin-top: 2rem;
         margin-bottom: 2rem;
     }
-
+    .lag-header--mobile+.lag-main-content {
+        @media (max-width: 1199px) {
+            padding-top:194px;
+        }
+    }
+    .lag-header--modal-visible + .lag-main-content {
+        padding-top: 0 !important;
+    }
 }

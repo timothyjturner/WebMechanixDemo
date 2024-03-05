@@ -1,4 +1,4 @@
-.wp-block-button a {
+.wp-block-button a, .wmd .wmd_hero #QuoteForm input[type=submit] {
     display: inline-block;
     text-align: center;
     text-decoration: none;
@@ -13,7 +13,7 @@
     line-height: 1.4375rem;
     padding: 10px 55px;
     border-radius: 5px;
-    background-color: #ce0e2d;
+    background-color: #ce0e2d !important;
     margin: auto;
     outline: none;
     border: none;

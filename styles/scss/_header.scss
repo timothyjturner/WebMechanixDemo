@@ -39,3 +39,9 @@
         }
     }
 }
+
+@media (max-width: 525px) {
+   .wmd .lag-header__logo {
+        max-height: unset;
+   } 
+}
